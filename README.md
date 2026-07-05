@@ -87,14 +87,15 @@ sudo python3 monitor.py -i eth0
 # Configuration
 Edit config.py to customize:
 
+```python
 class SnifferConfig:
-    DEFAULT_INTERFACE = None        # Use default interface
-    BUFFER_SIZE = 65535             # Maximum packet size
-    SOCKET_TIMEOUT = 1.0            # Socket timeout in seconds
-    MAX_PAYLOAD_DISPLAY = 50        # Maximum payload bytes to display
-    FILTER_PROTOCOLS = None         # e.g., ['TCP', 'UDP', 'ICMP']
-    LOG_LEVEL = 'INFO'              # DEBUG, INFO, WARNING, ERROR
-
+    DEFAULT_INTERFACE = None          # Use default interface
+    BUFFER_SIZE = 65535               # Maximum packet size
+    SOCKET_TIMEOUT = 1.0              # Socket timeout in seconds
+    MAX_PAYLOAD_DISPLAY = 50          # Maximum payload bytes to display
+    FILTER_PROTOCOLS = None           # e.g., ['TCP', 'UDP', 'ICMP']
+    LOG_LEVEL = 'INFO'                # DEBUG, INFO, WARNING, ERROR
+```
 # Security & Legal Notice
 
 # IMPORTANT: This tool is for educational and authorized network analysis purposes only. Unauthorized packet sniffing may violate laws and network policies in your jurisdiction. Always ensure you have proper authorization before using this tool.
