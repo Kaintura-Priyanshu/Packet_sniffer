@@ -96,15 +96,22 @@ class SnifferConfig:
     LOG_LEVEL = 'INFO'              # DEBUG, INFO, WARNING, ERROR
 
 # Security & Legal Notice
+
 # IMPORTANT: This tool is for educational and authorized network analysis purposes only. Unauthorized packet sniffing may violate laws and network policies in your jurisdiction. Always ensure you have proper authorization before using this tool.
 
 # Troubleshooting
 Issue	Solution
+
 Permission denied	Run with sudo
+
 No such device	Check interface name with ip link show
+
 No packets captured	Ensure interface is active and has traffic
+
 ImportError	Use Python 3.6+ or install missing modules
-License
+
+# License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Quick Start
@@ -117,6 +124,7 @@ sudo python3 monitor.py
 
 # Save to file for later analysis
 sudo python3 sniffer.py -o capture.log -c 1000
+
 Made with for the security community
 
 Remember: With great power comes great responsibility.
