@@ -74,13 +74,15 @@ sudo python3 sniffer.py -i wlan0 -v -c 50 -o wifi_capture.log
 # Launch interactive monitor
 sudo python3 monitor.py -i eth0
 
-# Command Line Options
-Option	Description
--i, --interface	Network interface to sniff on
--c, --count	Number of packets to capture
--o, --output	Output file for captured packets
--v, --verbose	Enable verbose output
--h, --help	Show help message
+## Command Line Options
+
+| Option | Description |
+| :--- | :--- |
+| `-i, --interface` | Network interface to sniff on |
+| `-c, --count` | Number of packets to capture |
+| `-o, --output` | Output file for captured packets |
+| `-v, --verbose` | Enable verbose output |
+| `-h, --help` | Show help message |
 
 # Configuration
 Edit config.py to customize:
