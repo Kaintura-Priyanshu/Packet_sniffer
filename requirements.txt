@@ -1,0 +1,6 @@
+# No external dependencies required for basic packet sniffing
+# Standard library modules are sufficient
+
+# For additional features, might need:
+# scapy  # Alternative packet manipulation library
+# pyshark  # Wireshark integration
