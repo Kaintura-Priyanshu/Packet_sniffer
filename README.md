@@ -17,15 +17,15 @@
 
 ## Features
 
-- ✅ Real-time packet capture on any network interface
-- ✅ Protocol analysis for TCP, UDP, ICMP, and more
-- ✅ Human-readable output with detailed packet inspection
-- ✅ Statistics collection with protocol distribution
-- ✅ File output for packet logging and analysis
-- ✅ Verbose mode for detailed packet information
-- ✅ Configurable capture with packet count limits
-- ✅ Well-documented code for educational purposes
-- ✅ Interactive curses-based monitoring interface
+-  Real-time packet capture on any network interface
+-  Protocol analysis for TCP, UDP, ICMP, and more
+-  Human-readable output with detailed packet inspection
+-  Statistics collection with protocol distribution
+-  File output for packet logging and analysis
+-  Verbose mode for detailed packet information
+-  Configurable capture with packet count limits
+-  Well-documented code for educational purposes
+-  Interactive curses-based monitoring interface
 
 ---
 
