@@ -41,7 +41,8 @@
 ## Installation
 
 # Clone the repository
-git clone https://github.com/Kaintura_Priyanshu/Packet_sniffer.git
+git clone https://github.com/Kaintura-Priyanshu/Packet_sniffer.git
+
 cd Packet_sniffer
 
 # Make scripts executable
@@ -85,6 +86,7 @@ sudo python3 monitor.py -i eth0
 | `-h, --help` | Show help message |
 
 # Configuration
+
 Edit config.py to customize:
 
 ```python
